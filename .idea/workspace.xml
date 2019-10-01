@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1da03804-a6a1-45a4-ba63-1187ae06defa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session1/money_future/content.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session1/money_future/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session1/prime_number/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session1/prime_number/primeNumber.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session1/index.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +17,13 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -27,6 +32,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -55,8 +61,16 @@
       <option name="presentableId" value="Default" />
       <updated>1569853766301</updated>
       <workItem from="1569853769305" duration="36000" />
-      <workItem from="1569933600219" duration="3782000" />
+      <workItem from="1569933600219" duration="8453000" />
     </task>
+    <task id="LOCAL-00001" summary="lai kep">
+      <created>1569940296578</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569940296578</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,5 +86,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lai kep" />
+    <option name="LAST_COMMIT_MESSAGE" value="lai kep" />
   </component>
 </project>
