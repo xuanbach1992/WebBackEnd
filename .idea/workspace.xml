@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1da03804-a6a1-45a4-ba63-1187ae06defa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/session1/prime_number/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session1/prime_number/primeNumber.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1569853766301</updated>
       <workItem from="1569853769305" duration="36000" />
-      <workItem from="1569933600219" duration="8453000" />
+      <workItem from="1569933600219" duration="9104000" />
     </task>
     <task id="LOCAL-00001" summary="lai kep">
       <created>1569940296578</created>
@@ -70,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569940296578</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="prime number">
+      <created>1569945000225</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569945000225</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +94,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lai kep" />
-    <option name="LAST_COMMIT_MESSAGE" value="lai kep" />
+    <MESSAGE value="prime number" />
+    <option name="LAST_COMMIT_MESSAGE" value="prime number" />
   </component>
 </project>
