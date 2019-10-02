@@ -1,1 +1,1 @@
-Copyright &copy; anh Bách max đẹp trai
+Copyright &copy; anh Bách max đẹp <trai></trai>
