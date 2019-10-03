@@ -49,17 +49,25 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
                     echo $unit . " hunderd ";
                 }
             }
-            if ($numtenth != 0 || $numUnit != 0) {
+            if ($numtenth != 0 xor $numUnit != 0) {
                 echo "  and ";
             }
-            foreach ($array2 as $keyTenth => $tenth) {
-                if ($numtenth == $keyTenth) {
-                    echo $tenth . " ";
+            if ($numtenth == 1) {
+                foreach ($array1 as $key => $value) {
+                    if ($key == $numtenth . $numUnit) {
+                        echo $value;
+                    }
                 }
-            }
-            foreach ($array1 as $keyUnit => $unit) {
-                if ($numUnit == $keyUnit) {
-                    echo $unit;
+            } else {
+                foreach ($array2 as $keyTenth => $tenth) {
+                    if ($numtenth == $keyTenth) {
+                        echo $tenth . " ";
+                    }
+                }
+                foreach ($array1 as $keyUnit => $unit) {
+                    if ($numUnit == $keyUnit) {
+                        echo $unit;
+                    }
                 }
             }
         }
