@@ -21,7 +21,7 @@ include "getValue.php";
 </head>
 <body>
 <form action="" method="get" class="formInput">
-    <input type="text" name="num1" placeholder="a" value="<?php echo $demo->getA(); ?>">x2+
+    <input type="text" name="num1" placeholder="a" value="<?php echo $demo->getA(); ?>">x<sup>2</sup>+
     <input type="text" name="num2" placeholder="b" value="<?php echo $demo->getB(); ?>">x+
     <input type="text" name="num3" placeholder="c" value="<?php echo $demo->getC(); ?>">=0
     <br><input type="submit" value="tim nghiem" style="width: 100px">
