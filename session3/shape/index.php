@@ -12,6 +12,6 @@ echo 'Cylinder perimeter: ' . $cylinder->calculatePerimeter() . '<br />';
 $rectangle = new Rectangle('Rectangle 01', 3 , 4);
 echo 'Rectangle area: ' . $rectangle->calculateArea() . '<br />';
 echo 'Rectangle perimeter: ' . $rectangle->calculatePerimeter() . '<br />';
-$square = new Square('Square 01', 4 , 4, 4);
+$square = new Square('Square 01', 4 , 4);
 echo 'Rectangle area: ' . $square->calculateArea() . '<br />';
 echo 'Rectangle perimeter: ' . $square->calculatePerimeter() . '<br />';

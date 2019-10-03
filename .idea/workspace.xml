@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1da03804-a6a1-45a4-ba63-1187ae06defa" name="Default Changelist" comment="" />
+    <list default="true" id="1da03804-a6a1-45a4-ba63-1187ae06defa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session3/shape/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/session3/shape/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session3/shape/shape.php" beforeDir="false" afterPath="$PROJECT_DIR$/session3/shape/shape.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session3/shape/square.php" beforeDir="false" afterPath="$PROJECT_DIR$/session3/shape/square.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +17,20 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,7 +79,8 @@
       <workItem from="1569853769305" duration="36000" />
       <workItem from="1569933600219" duration="9726000" />
       <workItem from="1570018183482" duration="1663000" />
-      <workItem from="1570030760677" duration="3270000" />
+      <workItem from="1570030760677" duration="3825000" />
+      <workItem from="1570111988923" duration="2608000" />
     </task>
     <task id="LOCAL-00001" summary="lai kep">
       <created>1569940296578</created>
@@ -97,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570033633123</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="form validate complete">
+      <created>1570034247030</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1570034247030</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

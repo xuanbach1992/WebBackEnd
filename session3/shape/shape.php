@@ -11,6 +11,6 @@ class Shape
     }
 
     public function show(){
-        return "I am a shape. My name is $this->name";
+        return "hello world, toi la hình dạng, tên là $this->name";
     }
 }
