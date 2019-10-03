@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1da03804-a6a1-45a4-ba63-1187ae06defa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session3/shape/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/session3/shape/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session3/shape/shape.php" beforeDir="false" afterPath="$PROJECT_DIR$/session3/shape/shape.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session3/shape/square.php" beforeDir="false" afterPath="$PROJECT_DIR$/session3/shape/square.php" afterDir="false" />
-    </list>
+    <list default="true" id="1da03804-a6a1-45a4-ba63-1187ae06defa" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +75,7 @@
       <workItem from="1569933600219" duration="9726000" />
       <workItem from="1570018183482" duration="1663000" />
       <workItem from="1570030760677" duration="3825000" />
-      <workItem from="1570111988923" duration="2608000" />
+      <workItem from="1570111988923" duration="3268000" />
     </task>
     <task id="LOCAL-00001" summary="lai kep">
       <created>1569940296578</created>
@@ -124,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570034247030</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix extend shape square">
+      <created>1570120947368</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1570120947368</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +150,7 @@
     <MESSAGE value="prime number" />
     <MESSAGE value="fix number to text" />
     <MESSAGE value="form validate complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="form validate complete" />
+    <MESSAGE value="fix extend shape square" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix extend shape square" />
   </component>
 </project>
