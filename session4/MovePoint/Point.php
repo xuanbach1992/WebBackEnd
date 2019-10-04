@@ -37,10 +37,14 @@ class Point2D
         $this->x = $x;
         $this->y = $y;
     }
-    public function getXY(){
-        return array($this->x,$this->y);
+
+    public function getXY()
+    {
+        return array($this->x, $this->y);
     }
-    public function toString(){
-        return "Toa do x= ".$this->x." va y= ".$this->y;
+
+    public function toString()
+    {
+        echo "<br>Toa do x= " . $this->x . " va y= " . $this->y . "<br>";
     }
 }
