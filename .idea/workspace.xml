@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1da03804-a6a1-45a4-ba63-1187ae06defa" name="Default Changelist" comment="">
+    <list default="true" id="1da03804-a6a1-45a4-ba63-1187ae06defa" name="Default Changelist" comment="test me">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/session2/array/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/session2/array/index.php" afterDir="false" />
     </list>
@@ -81,6 +81,7 @@
       <workItem from="1570111988923" duration="3268000" />
       <workItem from="1570197266250" duration="863000" />
       <workItem from="1570330365675" duration="8630000" />
+      <workItem from="1570377401228" duration="532000" />
     </task>
     <task id="LOCAL-00001" summary="lai kep">
       <created>1569940296578</created>
@@ -166,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570345547718</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="demo array">
+      <created>1570377417525</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1570377417525</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +204,7 @@
     <MESSAGE value="fan demo" />
     <MESSAGE value="try catch final demo" />
     <MESSAGE value="tog duong cheo trinh" />
-    <option name="LAST_COMMIT_MESSAGE" value="tog duong cheo trinh" />
+    <MESSAGE value="demo array" />
+    <option name="LAST_COMMIT_MESSAGE" value="demo array" />
   </component>
 </project>
