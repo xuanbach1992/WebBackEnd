@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1da03804-a6a1-45a4-ba63-1187ae06defa" name="Default Changelist" comment="" />
+    <list default="true" id="1da03804-a6a1-45a4-ba63-1187ae06defa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/session2/upload_file/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +79,8 @@
       <workItem from="1570018183482" duration="1663000" />
       <workItem from="1570030760677" duration="3825000" />
       <workItem from="1570111988923" duration="3268000" />
+      <workItem from="1570197266250" duration="863000" />
+      <workItem from="1570330365675" duration="974000" />
     </task>
     <task id="LOCAL-00001" summary="lai kep">
       <created>1569940296578</created>
