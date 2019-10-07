@@ -1,17 +1,19 @@
 <?php
+$birthday=null;
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
-    if (isset($_GET["birthday"])) {
+    if (!empty($_GET["birthday"])) {
         $birthday = $_GET["birthday"];
         $date = str_replace('/', '-', $birthday);
         $date = strtotime($date);
-        var_dump($date);
-        $dateNow = date("Y-M-d");
+//        var_dump($date);
+        $dateNow = date("d-M-Y");
         $dateNow = strtotime($dateNow);
-        var_dump($dateNow);
+//        var_dump($dateNow);
         $time = $dateNow - $date;
-       var_dump($time);
-       $day=$time/86400;
-       $week=round($time/86400/7);
+        var_dump($time);
+        $day = floor($time / 86400);
+        $week = floor($day / 7);
+        $dayOfWeek = $day-($week*7);
     }
 }
 ?>
@@ -26,9 +28,15 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
 </head>
 <body>
 <form action="" method="get">
-    <input type="text" name="birthday" value="1992/02/05">
+    <input type="text" name="birthday" placeholder="dd/mm/yyyy" value="<?php echo $birthday?>">
     <input type="submit" value="tinh ra ngay">
 </form>
-<?php //echo "Ngày: " . $day['mday'] . "<hr>"; ?>
+<?php
+#isset() or !empty
+if (!empty($day)){
+    echo "bạn có mặt trên đời này được : " . $day . " ngày <hr>";
+    echo "tương đương ".$week." tuần và ".$dayOfWeek." ngày";
+}
+ ?>
 </body>
 </html>
