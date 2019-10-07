@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     $dateNow = strtotime($dateNow);
     var_dump($dateNow);
     $time = $dateNow - $date;
-    var_dump($time);
+   $day=getdate($time);
 
 }
 ?>
@@ -27,6 +27,6 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     <input type="text" name="birthday" value="1992/02/05">
     <input type="submit" value="tinh ra ngay">
 </form>
-<?php echo $time; ?>
+<?php echo "Ngày: ".$day['mday']."<hr>"; ?>
 </body>
 </html>
