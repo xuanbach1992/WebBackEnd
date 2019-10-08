@@ -11,7 +11,7 @@ for ($i = 0; $i < count($arrayPrint); $i++) {
         $group = $arrayPrint[$i]["group"];
     }
 }
-if (isset($_POST['update'])) {
+if (!empty($_POST['update'])) {
     $input = array(
         'name' => $_POST['name'],
         'address' => $_POST['address'],
@@ -19,7 +19,9 @@ if (isset($_POST['update'])) {
         'group' => $_POST['group'],
         'role' => $_POST['role']
     );
+    $arrayPrint[$index]=$input;
 }
+
 $data = json_encode($arrayPrint);
 file_put_contents('data.json', $data);
 
