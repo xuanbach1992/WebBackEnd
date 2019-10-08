@@ -27,7 +27,7 @@ class ManagerStudent
 //        var_dump($arrStudent);
         $this->saveDateJson($arrStudent);
 
-//        header("Location: list.php");
+
     }
 
     public function saveDateJson($data)
