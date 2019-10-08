@@ -39,7 +39,7 @@ include "loadData.php";
                 <td><?php echo $arrayPrint[$i]["group"] ?></td>
                 <td><?php echo $arrayPrint[$i]["role"] ?></td>
                 <td><a href="edit.php?id=<?php echo $i ?>">Edit</a></td>
-                <td><a href="delete.php?id=<?php echo $i ?>">Delete</a></td>
+                <td><a href="delete.php?id=<?php echo $i ?>" onClick="return confirm('Delete user?')">Delete</a></td>
             </tr>
             <?php
         } ?>
@@ -48,4 +48,5 @@ include "loadData.php";
 <a href="../index.php">Back</a>
 
 </body>
+
 </html>

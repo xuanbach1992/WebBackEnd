@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -41,11 +40,13 @@
             </td>
         </tr>
         <tr>
-            <td colspan="2"><input type="submit" style="text-align: center" value="ADD USER"></td>
+            <td colspan="2"><input type="submit" style="text-align: center" value="ADD USER"
+                                   onClick="return confirm('add user?')"></td>
 
         </tr>
     </table>
 </form>
+
 <a href="manager/list.php">Danh sach user</a>
 </body>
 </html>
