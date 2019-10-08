@@ -11,19 +11,6 @@ for ($i = 0; $i < count($arrayPrint); $i++) {
         $group = $arrayPrint[$i]["group"];
     }
 }
-if (!empty($_POST['update'])) {
-    $input = array(
-        'name' => $_POST['name'],
-        'address' => $_POST['address'],
-        'phone' => $_POST['phone'],
-        'group' => $_POST['group'],
-        'role' => $_POST['role']
-    );
-    $arrayPrint[$index]=$input;
-}
-
-$data = json_encode($arrayPrint);
-file_put_contents('data.json', $data);
 
 ?>
 <!doctype html>
@@ -36,8 +23,11 @@ file_put_contents('data.json', $data);
     <title>Document</title>
 </head>
 <body>
-<form action="" method="post">
+<form action="editForm.php" method="get">
     <table>
+        <tr><td>ID</td>
+            <td><input type="text" name="id" value="<?php echo $index ?>" disabled></td>
+        </tr>
         <tr>
             <td>Name</td>
             <td><input type="text" name="name" value="<?php echo $name ?>"></td>

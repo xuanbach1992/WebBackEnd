@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1da03804-a6a1-45a4-ba63-1187ae06defa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/session5/crud_manager/manager/editForm.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session5/crud_manager/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/session5/crud_manager/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/session5/crud_manager/manager/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/session5/crud_manager/manager/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session5/crud_manager/manager/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/session5/crud_manager/manager/list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session5/crud_manager/manager/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/session5/crud_manager/manager/edit.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +86,7 @@
       <workItem from="1570377401228" duration="577000" />
       <workItem from="1570458156487" duration="1322000" />
       <workItem from="1570465583847" duration="2483000" />
-      <workItem from="1570536983862" duration="1065000" />
+      <workItem from="1570536983862" duration="2535000" />
     </task>
     <task id="LOCAL-00001" summary="lai kep">
       <created>1569940296578</created>
@@ -207,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570468093056</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="fix add user and del using js">
+      <created>1570538290660</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1570538290660</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +249,7 @@
     <MESSAGE value="funny time stam" />
     <MESSAGE value="time stamp final" />
     <MESSAGE value="add label" />
-    <option name="LAST_COMMIT_MESSAGE" value="add label" />
+    <MESSAGE value="fix add user and del using js" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix add user and del using js" />
   </component>
 </project>
