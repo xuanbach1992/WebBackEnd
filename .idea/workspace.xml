@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1da03804-a6a1-45a4-ba63-1187ae06defa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session5/crud_manager/manager/editForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/session5/crud_manager/manager/editForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session5/crud_manager/manager/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/session5/crud_manager/manager/delete.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +83,7 @@
       <workItem from="1570377401228" duration="577000" />
       <workItem from="1570458156487" duration="1322000" />
       <workItem from="1570465583847" duration="2483000" />
-      <workItem from="1570536983862" duration="4611000" />
+      <workItem from="1570536983862" duration="4742000" />
     </task>
     <task id="LOCAL-00001" summary="lai kep">
       <created>1569940296578</created>
@@ -233,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570541234415</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="fix css">
+      <created>1570543849460</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1570543849460</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
