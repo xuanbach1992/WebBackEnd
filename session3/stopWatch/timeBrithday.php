@@ -6,11 +6,12 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
         $date = str_replace('/', '-', $birthday);
         $date = strtotime($date);
 //        var_dump($date);
-        $dateNow = date("d-M-Y");
+        $dateNow = date("d-Y-M");
         $dateNow = strtotime($dateNow);
 //        var_dump($dateNow);
         $time = $dateNow - $date;
         var_dump($time);
+
         $day = floor($time / 86400);
         $week = floor($day / 7);
         $dayOfWeek = $day - ($week * 7);
@@ -29,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
 <body>
 <form action="" method="get">
     <label>
-        <input type="text" name="birthday" placeholder="dd/mm/yyyy" value="<?php echo $birthday ?>">
+        <input type="text" name="birthday"  value="<?php echo $birthday ?>">
     </label>
     <input type="submit" value="tinh ra ngay">
 </form>
