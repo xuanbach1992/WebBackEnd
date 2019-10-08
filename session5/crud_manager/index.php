@@ -9,7 +9,15 @@
     <style>
         input {
             border-radius: 10px;
-            border: solid 1px #FF0000;
+            border: solid 1px ;
+        }
+
+        #btnSubmit {
+            text-align: center;
+            border: solid 1px #000000;
+        }
+        #btnSubmit:hover{
+            background-color: red;
         }
     </style>
 </head>
@@ -40,7 +48,7 @@
             </td>
         </tr>
         <tr>
-            <td colspan="2"><input type="submit" style="text-align: center" value="ADD USER"
+            <td colspan="2"><input type="submit" id="btnSubmit" value="ADD USER"
                                    onClick="return confirm('add user?')"></td>
 
         </tr>

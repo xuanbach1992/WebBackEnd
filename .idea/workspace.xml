@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1da03804-a6a1-45a4-ba63-1187ae06defa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/session5/crud_manager/manager/editForm.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session5/crud_manager/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/session5/crud_manager/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/session5/crud_manager/manager/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/session5/crud_manager/manager/data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/session5/crud_manager/manager/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/session5/crud_manager/manager/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session5/crud_manager/manager/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/session5/crud_manager/manager/list.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +87,7 @@
       <workItem from="1570377401228" duration="577000" />
       <workItem from="1570458156487" duration="1322000" />
       <workItem from="1570465583847" duration="2483000" />
-      <workItem from="1570536983862" duration="2535000" />
+      <workItem from="1570536983862" duration="3735000" />
     </task>
     <task id="LOCAL-00001" summary="lai kep">
       <created>1569940296578</created>
@@ -214,7 +215,21 @@
       <option name="project" value="LOCAL" />
       <updated>1570538290660</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="fix edit bone">
+      <created>1570540066142</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1570540066142</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fix edit bone">
+      <created>1570540097832</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1570540097832</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +265,7 @@
     <MESSAGE value="time stamp final" />
     <MESSAGE value="add label" />
     <MESSAGE value="fix add user and del using js" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix add user and del using js" />
+    <MESSAGE value="fix edit bone" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix edit bone" />
   </component>
 </project>

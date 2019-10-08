@@ -10,9 +10,13 @@ include "loadData.php";
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-        table, tr, td {
+        table {
+            border: solid 1px blue;
+        }
+        tr, td {
             border: 1px solid black;
-            width: 50%;
+            width: 200px;
+            height: 100px;
             text-align: center;
         }
     </style>
@@ -21,7 +25,7 @@ include "loadData.php";
 <form action="" method="get">
     <table>
         <tr>
-            <td>Id</td>
+            <td>STT</td>
             <td>Name</td>
             <td>Phone</td>
             <td>Address</td>
@@ -32,7 +36,7 @@ include "loadData.php";
         for ($i = 0; $i < count($arrayPrint); $i++) {
             ?>
             <tr>
-                <td><?php echo $i+1 ?></td>
+                <td><?php echo $i + 1 ?></td>
                 <td><?php echo $arrayPrint[$i]["name"] ?></td>
                 <td><?php echo $arrayPrint[$i]["address"] ?></td>
                 <td><?php echo $arrayPrint[$i]["phone"] ?></td>

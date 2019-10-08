@@ -26,7 +26,7 @@ for ($i = 0; $i < count($arrayPrint); $i++) {
 <form action="editForm.php" method="get">
     <table>
         <tr><td>ID</td>
-            <td><input type="text" name="id" value="<?php echo $index ?>"></td>
+            <td><input type="text" name="id" value="<?php echo $index ?>"readonly="readonly"></td>
         </tr>
         <tr>
             <td>Name</td>
