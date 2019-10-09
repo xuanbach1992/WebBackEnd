@@ -20,6 +20,7 @@ class ManagerStudent
         $newData = json_encode($data);
         file_put_contents($this->path, $newData);
     }
+
     public function addData($student)
     {
         $database = $this->loadDataJson();
@@ -43,7 +44,7 @@ class ManagerStudent
             $student = new Student($item["name"], $item["phone"], $item["address"], $item["role"], $item["group"]);
             array_push($studentList, $student);
         }
-            return $studentList;
+        return $studentList;
     }
 
     public function delete($index)

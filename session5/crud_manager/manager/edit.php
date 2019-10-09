@@ -1,14 +1,15 @@
 <?php
-include "loadData.php";
-$index = $_GET["id"];
-$arr = $arrayPrint[$index];
-
-for ($i = 0; $i < count($arrayPrint); $i++) {
-    if ($index == $i) {
-        $name = $arrayPrint[$i]["name"];
-        $address = $arrayPrint[$i]["address"];
-        $phone = $arrayPrint[$i]["phone"];
-        $group = $arrayPrint[$i]["group"];
+include_once "../User.php";
+include_once "../Student.php";
+include_once "ManagerStudent.php";
+$id = $_GET['id'];
+$listStudent=$manager->getListStudentData();
+foreach ($listStudent as $key=>$item) {
+    if ($key == $id) {
+        $name = $item->getName();
+        $address = $item->getAddress();
+        $phone = $item->getPhone();
+        $group = $item->getGroup();
     }
 }
 
@@ -26,7 +27,7 @@ for ($i = 0; $i < count($arrayPrint); $i++) {
 <form action="editForm.php" method="get">
     <table>
         <tr><td>ID</td>
-            <td><input type="text" name="id" value="<?php echo $index ?>"readonly="readonly"></td>
+            <td><input type="text" name="id" value="<?php echo $id ?>"readonly="readonly"></td>
         </tr>
         <tr>
             <td>Name</td>
