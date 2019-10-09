@@ -1,18 +1,19 @@
 <?php
 include "loadData.php";
 $index = $_GET["id"];
-$arr = $arrayPrint[$index];
-
-for ($i = 0; $i < count($arrayPrint); $i++) {
-    if ($index == $i) {
-        $name = $arrayPrint[$i]["name"];
-        $address = $arrayPrint[$i]["address"];
-        $phone = $arrayPrint[$i]["phone"];
-        $group = $arrayPrint[$i]["group"];
+foreach ($arrayPrint as $key=>$item){
+    if ($index == $key){
+        $name = $item["name"];
+        $address = $item["address"];
+        $phone = $item["phone"];
+        $group = $item["group"];
     }
 }
 
+//tuong tu nhu for thuong
+
 ?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -25,8 +26,9 @@ for ($i = 0; $i < count($arrayPrint); $i++) {
 <body>
 <form action="editForm.php" method="get">
     <table>
-        <tr><td>ID</td>
-            <td><input type="text" name="id" value="<?php echo $index ?>"readonly="readonly"></td>
+        <tr style="display: none">
+            <td>ID</td>
+            <td><input type="text" name="id" value="<?php echo $index ?>" readonly="readonly"></td>
         </tr>
         <tr>
             <td>Name</td>
