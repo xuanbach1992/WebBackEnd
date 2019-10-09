@@ -1,5 +1,9 @@
 <?php
-include "loadData.php";
+include_once "../User.php";
+include_once "../Student.php";
+include_once "ManagerStudent.php";
+$arrayPrint = $manager->getListStudentData();
+
 ?>
 <!doctype html>
 <html lang="en">
@@ -13,6 +17,7 @@ include "loadData.php";
         table {
             border: solid 1px blue;
         }
+
         tr, td {
             border: 1px solid black;
             width: 200px;
@@ -33,17 +38,17 @@ include "loadData.php";
             <td>Role</td>
         </tr>
         <?php
-        for ($i = 0; $i < count($arrayPrint); $i++) {
+        foreach ($arrayPrint as $key=>$item){
             ?>
             <tr>
-                <td><?php echo $i + 1 ?></td>
-                <td><?php echo $arrayPrint[$i]["name"] ?></td>
-                <td><?php echo $arrayPrint[$i]["address"] ?></td>
-                <td><?php echo $arrayPrint[$i]["phone"] ?></td>
-                <td><?php echo $arrayPrint[$i]["group"] ?></td>
-                <td><?php echo $arrayPrint[$i]["role"] ?></td>
-                <td><a href="edit.php?id=<?php echo $i ?>">Edit</a></td>
-                <td><a href="delete.php?id=<?php echo $i ?>" onClick="return confirm('Delete user?')">Delete</a></td>
+                <td><?php echo $key + 1 ?></td>
+                <td><?php echo $item->getName() ?></td>
+                <td><?php echo $item->getAddress() ?></td>
+                <td><?php echo $item->getPhone() ?></td>
+                <td><?php echo $item->getGroup() ?></td>
+                <td><?php echo $item->getRole()?></td>
+                <td><a href="edit.php?id=<?php echo $key ?>">Edit</a></td>
+                <td><a href="delete.php?id=<?php echo $key ?>" onClick="return confirm('Delete user?')">Delete</a></td>
             </tr>
             <?php
         } ?>

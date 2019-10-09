@@ -22,7 +22,7 @@
     </style>
 </head>
 <body>
-<form action="getValue.php" method="get">
+<form action="manager/getValue.php" method="get">
     <table>
         <tr>
             <td>Name</td>

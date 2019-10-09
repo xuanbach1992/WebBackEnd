@@ -1,7 +1,7 @@
 <?php
-include_once "User.php";
-include_once "Student.php";
-include_once "manager/ManagerStudent.php";
+include_once "../User.php";
+include_once "../Student.php";
+include_once "ManagerStudent.php";
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
     if (!empty($_GET["name"])) {
         $name = $_GET["name"];
@@ -20,9 +20,6 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     }
 }
 $student_one = new Student($name, $address, $phone, $role, $group);
-//var_dump($student_one);
-$manager = new ManagerStudent("manager/data.json");
-//var_dump($manager);
 $manager->addData($student_one);
-header("Location: index.php");
+header("Location: ../index.php");
 ?>

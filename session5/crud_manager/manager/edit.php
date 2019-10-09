@@ -1,8 +1,7 @@
 <?php
-include "loadData.php";
+include_once "ManagerStudent.php";
 $index = $_GET["id"];
-$arr = $arrayPrint[$index];
-
+$arrayPrint=$manager->getListStudentData();
 for ($i = 0; $i < count($arrayPrint); $i++) {
     if ($index == $i) {
         $name = $arrayPrint[$i]["name"];
@@ -11,17 +10,7 @@ for ($i = 0; $i < count($arrayPrint); $i++) {
         $group = $arrayPrint[$i]["group"];
     }
 }
-
 ?>
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
 <body>
 <form action="editForm.php" method="get">
     <table>

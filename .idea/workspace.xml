@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1da03804-a6a1-45a4-ba63-1187ae06defa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/session5/interface comparable/Circle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session5/interface comparable/ComparableCircle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session5/interface comparable/Compare.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session5/interface comparable/InterComparable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session5/interfaceResizeable/Cicrle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session5/interfaceResizeable/Rectangle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session5/interfaceResizeable/Shape.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session5/interfaceResizeable/Square.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session5/interfaceResizeable/interfaceResizeable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session5/interfaceResizeable/interfaceShape.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session5/crud_manager/getValue.php" beforeDir="false" afterPath="$PROJECT_DIR$/session5/crud_manager/manager/getValue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session5/crud_manager/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/session5/crud_manager/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session5/crud_manager/manager/ManagerStudent.php" beforeDir="false" afterPath="$PROJECT_DIR$/session5/crud_manager/manager/ManagerStudent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session5/crud_manager/manager/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/session5/crud_manager/manager/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session5/crud_manager/manager/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/session5/crud_manager/manager/delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session5/crud_manager/manager/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/session5/crud_manager/manager/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session5/crud_manager/manager/editForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/session5/crud_manager/manager/editForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session5/crud_manager/manager/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/session5/crud_manager/manager/list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session5/crud_manager/manager/loadData.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +62,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\WebBackEnd\session5\crud_manager\manager" />
       <recent name="C:\xampp\htdocs\WebBackEnd\session5\interfaceResizeable" />
     </key>
   </component>
@@ -98,7 +98,8 @@
       <workItem from="1570377401228" duration="577000" />
       <workItem from="1570458156487" duration="1322000" />
       <workItem from="1570465583847" duration="2483000" />
-      <workItem from="1570536983862" duration="7514000" />
+      <workItem from="1570536983862" duration="8964000" />
+      <workItem from="1570627476770" duration="3129000" />
     </task>
     <task id="LOCAL-00001" summary="lai kep">
       <created>1569940296578</created>
@@ -261,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570543873884</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="interface comparable">
+      <created>1570549254028</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1570549254028</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,6 +307,7 @@
     <MESSAGE value="fix add user and del using js" />
     <MESSAGE value="fix edit bone" />
     <MESSAGE value="fix css" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix css" />
+    <MESSAGE value="interface comparable" />
+    <option name="LAST_COMMIT_MESSAGE" value="interface comparable" />
   </component>
 </project>

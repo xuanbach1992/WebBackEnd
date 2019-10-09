@@ -15,8 +15,14 @@ class ManagerStudent
         return json_decode($dateFile, true);
     }
 
+    public function saveDateJson($data)
+    {
+        $newData = json_encode($data);
+        file_put_contents($this->path, $newData);
+    }
     public function addData($student)
     {
+        $database = $this->loadDataJson();
         $arrStudent = [
             "name" => $student->getName(),
             "address" => $student->getAddress(),
@@ -24,22 +30,46 @@ class ManagerStudent
             "role" => $student->getRole(),
             "group" => $student->getGroup()
         ];
-//        var_dump($arrStudent);
-        $this->saveDateJson($arrStudent);
-
-
+        array_push($database, $arrStudent);
+        $this->saveDateJson($database);
     }
 
-    public function saveDateJson($data)
+
+    public function getListStudentData()
     {
-        $database = $this->loadDataJson();
-
-        array_push($database, $data);
-
-        $newData = json_encode($database);
-        var_dump($newData);
-
-        file_put_contents($this->path, $newData);
+        $data = $this->loadDataJson();
+        $studentList = [];
+        foreach ($data as $item) {
+            $student = new Student($item["name"], $item["phone"], $item["address"], $item["role"], $item["group"]);
+            array_push($studentList, $student);
+        }
+            return $studentList;
     }
 
+    public function delete($index)
+    {
+        $database = $this->getListStudentData();
+        if (array_key_exists($index, $database)) {
+            array_splice($database, $index, 1);
+            $this->saveDateJson($database);
+        }
+    }
+
+    public function edit($index)
+    {
+        $database = $this->getListStudentData();
+        if (array_key_exists($index, $database)) {
+            $database[$index] = array(
+                'name' => $_GET['name'],
+                'address' => $_GET['address'],
+                'phone' => $_GET['phone'],
+                'group' => $_GET['group'],
+                'role' => $_GET['role']
+            );
+            $this->saveDateJson($database);
+        }
+    }
 }
+
+$path = "data.json";
+$manager = new ManagerStudent($path);
