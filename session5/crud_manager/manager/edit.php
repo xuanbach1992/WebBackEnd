@@ -14,6 +14,7 @@ $phone = $listStudent->getPhone();
 $group = $listStudent->getGroup();
 $role = $listStudent->getRole();
 
+
 ?>
 <!doctype html>
 <html lang="en">
@@ -49,8 +50,8 @@ $role = $listStudent->getRole();
         </tr>
         <tr>
             <td><select name="role">
-                    <option value="admin">Admin</option>
-                    <option value="student" <?php $role == "student" ? "selected" : " " ?>>Student</option>
+                    <option >Admin</option>
+                    <option value='<?php ($role == "student") ? "selected" : "" ?>' >Student</option>
                 </select>
             </td>
         </tr>
