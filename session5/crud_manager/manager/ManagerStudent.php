@@ -39,17 +39,17 @@ class ManagerStudent
     public function getListStudentData()
     {
         $data = $this->loadDataJson();
-        $studentList = [];
+        $studentsList = [];
         foreach ($data as $item) {
             $student = new Student($item["name"], $item["phone"], $item["address"], $item["role"], $item["group"]);
-            array_push($studentList, $student);
+            array_push($studentsList, $student);
         }
-        return $studentList;
+        return $studentsList;
     }
 
     public function delete($index)
     {
-        $database = $this->loadDataJson();
+        $database = $this->getListStudentData();
         if (array_key_exists($index, $database)) {
             array_splice($database, $index, 1);
             $this->saveDateJson($database);
