@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1da03804-a6a1-45a4-ba63-1187ae06defa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session5/crud_manager/manager/ManagerStudent.php" beforeDir="false" afterPath="$PROJECT_DIR$/session5/crud_manager/manager/ManagerStudent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session5/crud_manager/manager/crud.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/session5/crud_manager/manager/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/session5/crud_manager/manager/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session5/crud_manager/manager/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/session5/crud_manager/manager/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session5/crud_manager/manager/loadData.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +50,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/php.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
@@ -96,7 +92,10 @@
       <workItem from="1570458156487" duration="1322000" />
       <workItem from="1570465583847" duration="2483000" />
       <workItem from="1570536983862" duration="8964000" />
-      <workItem from="1570627476770" duration="4836000" />
+      <workItem from="1570627476770" duration="4918000" />
+      <workItem from="1570715050721" duration="120000" />
+      <workItem from="1570715180592" duration="42000" />
+      <workItem from="1570720717024" duration="610000" />
     </task>
     <task id="LOCAL-00001" summary="lai kep">
       <created>1569940296578</created>
@@ -273,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570630649777</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="crud using php, data is obj(not convert to array)">
+      <created>1570632324530</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1570632324530</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
