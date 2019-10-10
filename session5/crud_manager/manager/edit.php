@@ -6,15 +6,13 @@ include_once "ManagerStudent.php";
 $path = "data.json";
 $manager = new ManagerStudent($path);
 $id = $_GET['id'];
-$listStudent=$manager->getListStudentData();
-foreach ($listStudent as $key=>$item) {
-    if ($key == $id) {
-        $name = $item->getName();
-        $address = $item->getAddress();
-        $phone = $item->getPhone();
-        $group = $item->getGroup();
-    }
-}
+$listStudent = $manager->getDataToIndex($id);
+
+$name = $listStudent->getName();
+$address = $listStudent->getAddress();
+$phone = $listStudent->getPhone();
+$group = $listStudent->getGroup();
+$role = $listStudent->getRole();
 
 ?>
 <!doctype html>
@@ -29,8 +27,9 @@ foreach ($listStudent as $key=>$item) {
 <body>
 <form action="editForm.php" method="get">
     <table>
-        <tr><td>ID</td>
-            <td><input type="text" name="id" value="<?php echo $id ?>"readonly="readonly"></td>
+        <tr>
+            <td>ID</td>
+            <td><input type="text" name="id" value="<?php echo $id ?>" readonly="readonly"></td>
         </tr>
         <tr>
             <td>Name</td>
@@ -51,12 +50,12 @@ foreach ($listStudent as $key=>$item) {
         <tr>
             <td><select name="role">
                     <option value="admin">Admin</option>
-                    <option value="student" selected>Student</option>
+                    <option value="student" <?php $role == "student" ? "selected" : " " ?>>Student</option>
                 </select>
             </td>
         </tr>
         <tr>
-            <td colspan="2"><input type="submit" style="text-align: center" value="update">Update</td>
+            <td colspan="2"><input type="submit" style="text-align: center" value="update"></td>
 
         </tr>
     </table>

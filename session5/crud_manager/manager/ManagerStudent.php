@@ -56,12 +56,23 @@ class ManagerStudent
         }
     }
 
-    public function edit($index)
+    public function getDataToIndex($index)
     {
         $database = $this->getListStudentData();
         if (array_key_exists($index, $database)) {
+            $data = $database[$index];
+        }
+        return $data;
+    }
 
+    public
+    function edit($index, $data)
+    {
+        $database = $this->getListStudentData();
+        if (array_key_exists($index, $database)) {
+            $database[$index] = $data;
             $this->saveDateJson($database);
         }
+        return $database;
     }
 }
