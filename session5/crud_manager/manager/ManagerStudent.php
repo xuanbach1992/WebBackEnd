@@ -49,7 +49,7 @@ class ManagerStudent
 
     public function delete($index)
     {
-        $database = $this->getListStudentData();
+        $database = $this->loadDataJson();
         if (array_key_exists($index, $database)) {
             array_splice($database, $index, 1);
             $this->saveDateJson($database);
@@ -60,17 +60,8 @@ class ManagerStudent
     {
         $database = $this->getListStudentData();
         if (array_key_exists($index, $database)) {
-            $database[$index] = array(
-                'name' => $_GET['name'],
-                'address' => $_GET['address'],
-                'phone' => $_GET['phone'],
-                'group' => $_GET['group'],
-                'role' => $_GET['role']
-            );
+
             $this->saveDateJson($database);
         }
     }
 }
-
-$path = "data.json";
-$manager = new ManagerStudent($path);

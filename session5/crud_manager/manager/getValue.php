@@ -20,6 +20,9 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     }
 }
 $student_one = new Student($name, $address, $phone, $role, $group);
+
+$path = "data.json";
+$manager = new ManagerStudent($path);
 $manager->addData($student_one);
 header("Location: ../index.php");
 ?>

@@ -2,6 +2,9 @@
 include_once "../User.php";
 include_once "../Student.php";
 include_once "ManagerStudent.php";
+
+$path = "data.json";
+$manager = new ManagerStudent($path);
 $arrayPrint = $manager->getListStudentData();
 
 ?>
@@ -38,15 +41,15 @@ $arrayPrint = $manager->getListStudentData();
             <td>Role</td>
         </tr>
         <?php
-        foreach ($arrayPrint as $key=>$item){
+        foreach ($arrayPrint as $key => $item) {
             ?>
             <tr>
                 <td><?php echo $key + 1 ?></td>
-                <td><?php echo $item->getName() ?></td>
-                <td><?php echo $item->getAddress() ?></td>
-                <td><?php echo $item->getPhone() ?></td>
-                <td><?php echo $item->getGroup() ?></td>
-                <td><?php echo $item->getRole()?></td>
+                <td><?php echo $item->name ?></td>
+                <td><?php echo $item->address ?></td>
+                <td><?php echo $item->phone ?></td>
+                <td><?php echo $item->group ?></td>
+                <td><?php echo $item->role ?></td>
                 <td><a href="edit.php?id=<?php echo $key ?>">Edit</a></td>
                 <td><a href="delete.php?id=<?php echo $key ?>" onClick="return confirm('Delete user?')">Delete</a></td>
             </tr>

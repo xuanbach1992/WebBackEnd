@@ -3,10 +3,10 @@
 
 class User
 {
-    protected $name;
-    protected $address;
-    protected $phone;
-    protected $role;
+    public $name;
+    public $address;
+    public $phone;
+    public $role;
 
     public function __construct($name, $address, $phone, $role)
     {

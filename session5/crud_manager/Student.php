@@ -2,7 +2,7 @@
 
 class Student extends User
 {
-    protected  $group;
+    public $group;
 
     public function __construct($name, $address, $phone, $role, $group)
     {
