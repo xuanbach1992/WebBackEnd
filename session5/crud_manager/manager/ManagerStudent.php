@@ -65,8 +65,7 @@ class ManagerStudent
         return $data;
     }
 
-    public
-    function edit($index, $data)
+    public function edit($index, $data)
     {
         $database = $this->getListStudentData();
         if (array_key_exists($index, $database)) {
